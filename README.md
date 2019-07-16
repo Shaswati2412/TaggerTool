@@ -1,6 +1,8 @@
 # TaggerTool
+
+
 Online Tagger System for transliterating social media text
-********************************************************
+**********************************************************
 
 USED TOOLS:
 >Apache  Cassandra	:	As we attempt to design a tool that can handle big data, Cassandra database is used for this purpose.
