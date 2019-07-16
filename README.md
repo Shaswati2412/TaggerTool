@@ -5,9 +5,9 @@ Online Tagger System for transliterating social media text
 **********************************************************
 
 USED TOOLS:
->Apache  Cassandra	:	As we attempt to design a tool that can handle big data, Cassandra database is used for this purpose.
->Python		:	The coding language used for this project is python.
->PHP		:	The web interface creation is carried out using PHP.
+\nApache  Cassandra	:	As we attempt to design a tool that can handle big data, Cassandra database is used for this purpose.
+\nPython		:	The coding language used for this project is python.
+\nPHP		:	The web interface creation is carried out using PHP.
 
 
 DATASET:
