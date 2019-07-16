@@ -4,11 +4,11 @@
 Online Tagger System for transliterating social media text
 **********************************************************
 
-ABSTRACT:
+## ABSTRACT:
 In this project we have designed a tagger tool that is capable of storing comments from social media websites and provides an interface for the user to translate the comments into a language of their choice.
 ****************************************************************************************************************************************
 
-USED TOOLS:
+## USED TOOLS:
 >1. Apache  Cassandra	:	As we attempt to design a tool that can handle big data, Cassandra database is used for this purpose.
 >2. Python	:	The coding language used for this project is python.
 >3. PHP	:	The web interface creation is carried out using PHP.
