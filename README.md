@@ -10,12 +10,12 @@ USED TOOLS:
 >3. PHP	:	The web interface creation is carried out using PHP.
 ****************************************************************************************************************************************
 
-DATASET:
-We have used a dataset containing detailed information about youtube videos saved as JSON files. A few files from the dataset have been included in this folder.
+DATASET: 
+We have used a dataset containing detailed information about youtube videos saved as JSON files.
 JSON, or JavaScript Object Notation, is a minimal, readable format for structuring data. It is used primarily to transmit data between a server and web application, as an alternative to XML.
 ****************************************************************************************************************************************
 
-Extracting data from the JSON files:
+Extracting data from the JSON files: 
 According to our requirement we extract the data containing video id, date and time of publishing the video, comment id and comment; also taking into account each reply comment as a seperate, unique comment respectively. 
 The code for extracting the data from the JSON files and storing into our cassandra database has been written to PARSE_JSON_FILE.py. After extracting the data, each comment is split into several sentences, assigning each sentence a unique id for identification purpose. 
 ****************************************************************************************************************************************
